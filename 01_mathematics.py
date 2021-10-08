@@ -1,18 +1,19 @@
-a = 15
-b = 4
-
+a=15
+b=4
+print(f"The numbers are {a},{b}.\n")
 """
+
 Demonstrate basic maths
 """
 
-print(a + b) # 19
-print(a - b) # 11
-print(a * b) # 60
-print(a / b) # 3.75
+print("Sum result is " +str(a+b)+".")
+print("Subtraction result is "+str(a - b)+".")
+print("Multiplication result is "+str(a * b)+".")
+print("Division result is "+str(a / b)+".")
 
 """
 Demonstrate slightly advanced maths
 """
 
-print(a ** b) # 50625
-print(a // b) # 3
+print(f"{a} raised to the power of {b} is "+str(a**b)+".")
+print("Division result without remainder is "+str(a // b)+".")

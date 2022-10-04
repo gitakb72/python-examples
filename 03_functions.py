@@ -8,5 +8,5 @@ def comb(a, b):
 def diff(a, b):
   return a - b
   
-print(comb(15, 4)) # 19
-print(diff(15, 4)) # 11
+assert comb(15, 4) == 19
+assert diff(15, 4) == 11

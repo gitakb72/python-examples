@@ -12,4 +12,4 @@ class Adder():
 a = Adder()
 a.inject(2)
 a.inject(5)
-print(a())  # 7
+assert a() == 7

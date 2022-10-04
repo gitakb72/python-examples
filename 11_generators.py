@@ -4,6 +4,6 @@ def next_num(i):
 
 iterator = next_num(10)
 
-print(next(iterator)) # 10
-print(next(iterator)) # 11
-print(next(iterator)) # 12
+assert next(iterator) == 10
+assert next(iterator) == 11
+assert next(iterator) == 12
